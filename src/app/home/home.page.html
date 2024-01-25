@@ -1,0 +1,14 @@
+
+
+<ion-content [fullscreen]="true">  
+  <div id="container">
+      <div>{{currentOrientation}}</div>
+      <div>{{orientationUpdate}}</div>
+      <div></div>
+      
+      <ion-button (click)="setLandscape()">Landscape</ion-button>
+      <ion-button (click)="setPortrait()">Portrait</ion-button>
+
+      <ion-button (click)="unlockOrientation()">Unlock</ion-button>
+  </div>
+</ion-content>
